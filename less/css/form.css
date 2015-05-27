@@ -1,0 +1,17 @@
+.banner-content .input-group {
+  width: 354px;
+  height: 62px;
+}
+.banner-content .form-control {
+  height: 62px;
+  border: 1px solid #fff;
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+}
+.navbar-form {
+  margin: 0 !important;
+  padding: 0 !important;
+  border-top: none !important;
+  border-bottom: 0 !important;
+  box-shadow: 0 !important;
+}
