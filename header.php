@@ -51,14 +51,7 @@
                 </li>
                   <li><a href="review-order-page.php"><i class="icon icon-cart"></i></a>
                   </li>
-                  <li>
-                      <div id="google_translate_element"></div><script type="text/javascript">
-                      function googleTranslateElementInit() {
-                        new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
-                      }
-                      </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-                      <span class="translate-lang">ENG</span>
-                  </li>
+                  <li><a href="#"><span class="icon icon-translate"></span><i class="fa fa-chevron-down"></i></a></li>
                   <li class="header-icon-girlee"><a href="/girlee/index.php"><img src="images/girlee-2_03.png" alt="girlee" /></a>
                 </li>
               </ul>
@@ -98,14 +91,7 @@
                   </li>
                     <li><a href="review-order-page.php"><i class="icon icon-cart"></i></a>
                     </li>
-                   <li>
-                      <div id="google_translate_element"></div><script type="text/javascript">
-                      function googleTranslateElementInit() {
-                        new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
-                      }
-                      </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-                      <span class="translate-lang">ENG</span>
-                  </li>
+                   <li><a href="#"><span class="icon icon-translate"></span><i class="fa fa-chevron-down"></i></a></li>
                     <li class="header-icon-girlee"><a href="girlee.pro.php"><img src="images/girlee-2_03.png" alt="girlee" /></a>
                   </li>
                 </ul>

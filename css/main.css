@@ -6774,13 +6774,13 @@ header {
 }
 @media (max-width: 1024px) {
   header {
-    position: fixed;
     background: #000;
     padding-top: 20px;
     margin-top: 0;
     z-index: 9999;
     width: 100%;
     border-bottom: 1px solid #fff;
+    margin-bottom: 0em;
   }
 }
 .header-middlenav ul li a:hover {
@@ -6842,6 +6842,11 @@ header {
     padding-right: 0;
   }
 }
+@media (max-width: 797px) {
+  header .navbar-nav > li > a {
+    line-height: 0;
+  }
+}
 .navbar-default .navbar-nav > li > a:hover {
   color: #fff;
 }
@@ -6850,6 +6855,12 @@ header {
 }
 .navbar-right > li:nth-child(3) {
   width: 103px;
+}
+@media (max-width: 797px) {
+  .navbar-right > li:nth-child(3) {
+    width: 100%;
+    margin: 0em 0 10px !important;
+  }
 }
 .navbar-right > li:nth-child(3):before {
   content: "";
@@ -6890,6 +6901,8 @@ header {
 @media (max-width: 797px) {
   .navbar-left-body {
     width: 100%;
+    margin-top: 1em;
+    margin-left: -1em;
   }
 }
 .navbar-right {
@@ -7169,9 +7182,13 @@ header {
 @media (max-width: 797px) {
   .header-middlenav .nav-tabs.nav-justified > li {
     width: 50%;
-    background-color: #fff;
     border-right: 2px solid #000;
     margin-bottom: 2px;
+  }
+}
+@media (max-width: 767px) {
+  .header-middlenav .nav-tabs.nav-justified > li {
+    margin-bottom: -3px;
   }
 }
 .header-middlenav .nav-tabs.nav-justified > li:nth-child(7) {
@@ -7339,13 +7356,23 @@ header {
 }
 @media (max-width: 797px) {
   .icon-translate {
-    width: 21%;
+    width: 7%;
     margin: 0 auto;
   }
 }
-@media (max-width: 732px) {
+@media (max-width: 600px) {
   .icon-translate {
-    width: 49%;
+    width: 14%;
+  }
+}
+.navbar-right .fa-chevron-down:after {
+  content: "ENG";
+  font-family: 'Proxima Nova';
+  float: left;
+}
+@media (max-width: 797px) {
+  .navbar-right .fa-chevron-down:after {
+    content: "";
   }
 }
 .navbar-right .fa-chevron-down {
@@ -7362,7 +7389,7 @@ header {
   .navbar-right .fa-chevron-down {
     width: 100%;
     position: relative;
-    left: 4em;
+    left: 2em;
   }
 }
 .fa-chevron-down {
@@ -7827,7 +7854,7 @@ select {
   .banner {
     background-position: center 91px !important;
     padding-top: 7em !important;
-    margin-top: 0em;
+    margin-top: -6em;
   }
 }
 @media (max-width: 454px) {

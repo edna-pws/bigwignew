@@ -46,13 +46,13 @@ header {
 	margin-bottom: 5em;
 
 	@media (max-width: 1024px) {
-		position: fixed;
 		background: #000;
 		padding-top: 20px;
 		margin-top: 0;
 		z-index: 9999;
 		width: 100%;
 		border-bottom: 1px solid #fff;
+		margin-bottom: 0em;
 	}
 }
 .header-middlenav ul li a:hover {
@@ -115,6 +115,11 @@ header {
 		padding-right: 0;
 	}
 }
+header .navbar-nav > li > a {
+	@media (max-width: 797px) {
+		line-height: 0;
+	}
+}
 .navbar-default .navbar-nav > li > a:hover {
 	color: #fff;
 }
@@ -123,6 +128,11 @@ header {
 }
 .navbar-right > li:nth-child(3) {
 	width: 103px;
+
+	@media (max-width: 797px) {
+		width: 100%;
+		margin: 0em 0 10px !important;
+	}
 }
 .navbar-right > li:nth-child(3):before {
 	content: "";
@@ -156,6 +166,8 @@ header {
 	}
 	@media (max-width: 797px) {
 		width: 100%;
+		margin-top: 1em;
+		margin-left: -1em;
 	}
 
 }
@@ -411,9 +423,12 @@ header {
 
 	@media (max-width: 797px) {
 		width: 50%;
-		background-color: #fff;
 		border-right: 2px solid #000;
 		margin-bottom: 2px;
+	}
+
+	@media (max-width: 767px) {
+		margin-bottom: -3px;
 	}
 }
 .header-middlenav .nav-tabs.nav-justified > li:nth-child(7) {
