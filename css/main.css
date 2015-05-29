@@ -6632,6 +6632,11 @@ h2 {
     height: 117px;
   }
 }
+@media (max-width: 768px) {
+  .header-upper {
+    margin-top: 0;
+  }
+}
 .header-right {
   width: 70%;
   float: left;
@@ -6779,7 +6784,6 @@ header {
     margin-top: 0;
     z-index: 9999;
     width: 100%;
-    border-bottom: 1px solid #fff;
     margin-bottom: 0em;
   }
 }
@@ -7046,7 +7050,7 @@ header {
     z-index: 999;
   }
 }
-@media (max-width: 414px) {
+@media (max-width: 616px) {
   .brand_name {
     width: 70%;
   }
@@ -7276,6 +7280,174 @@ header {
 }
 .goog-te-menu-value img {
   display: none;
+}
+/*SIDEBAR TOOGLE*/
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+/*!
+ * Start Bootstrap - Simple Sidebar HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+/* Toggle Styles */
+.desktop-wrapper {
+  padding-left: 0 !important;
+}
+#wrapper {
+  padding-left: 0px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+#menu-toggle {
+  display: none;
+}
+@media (max-width: 768px) {
+  #menu-toggle {
+    display: block;
+    float: right;
+    padding-right: 10px;
+    z-index: 999;
+  }
+}
+#wrapper.toggled #menu-toggle {
+  margin-right: 250px !important;
+}
+@media (max-width: 768px) {
+  #wrapper.toggled {
+    padding-right: 250px !important;
+  }
+}
+#sidebar-wrapper {
+  display: none;
+}
+@media (max-width: 768px) {
+  #sidebar-wrapper {
+    display: inline-block;
+    z-index: 1000;
+    position: fixed;
+    right: 0;
+    width: 0;
+    height: 100%;
+    margin-left: 0;
+    overflow-y: auto;
+    background: #000;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    border-left: 1px solid #fff;
+  }
+}
+.sidebar-nav {
+  border-top: 51px solid #252525;
+}
+#wrapper.toggled #sidebar-wrapper {
+  width: 250px;
+  top: 0;
+}
+#page-content-wrapper {
+  padding: 0 !important;
+}
+#page-content-wrapper .col-lg-12 {
+  padding-left: 0;
+  padding-right: 0;
+}
+#page-content-wrapper .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+#wrapper.toggled #page-content-wrapper {
+  margin-right: -250px;
+}
+/* Sidebar Styles */
+#menu-toggle a {
+  text-decoration: none;
+}
+#menu-toggle .fa {
+  font-size: 39px;
+  color: #eee;
+}
+#menu-toggle:hover,
+#menu-toggle:focus,
+#menu-toggle:active {
+  text-decoration: none;
+}
+#wrapper.toggled #menu-toggle {
+  margin-right: 250px;
+}
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.sidebar-nav li {
+  text-indent: 20px;
+  line-height: 40px;
+}
+.sidebar-nav li a {
+  display: block;
+  text-decoration: none;
+  color: #999999;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+.sidebar-nav li a:hover {
+  background: #ea1d24 !important;
+  transition: 1s;
+}
+.sidebar-nav li a:hover {
+  text-decoration: none;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.2);
+}
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+  text-decoration: none;
+}
+.sidebar-nav > .sidebar-brand {
+  height: 65px;
+  font-size: 18px;
+  line-height: 60px;
+}
+.sidebar-nav > .sidebar-brand a {
+  color: #999999;
+}
+.sidebar-nav > .sidebar-brand a:hover {
+  color: #fff;
+  background: none;
+}
+@media (min-width: 768px) {
+  #wrapper {
+    padding-left: 0px;
+  }
+  #wrapper.toggled {
+    padding-left: 0;
+  }
+  #sidebar-wrapper {
+    width: 250px;
+  }
+  #wrapper.toggled #sidebar-wrapper {
+    width: 0;
+  }
+  #page-content-wrapper {
+    padding: 20px;
+    position: relative;
+  }
+  #wrapper.toggled #page-content-wrapper {
+    position: relative;
+    margin-right: -250px;
+  }
+}
+.sidebar-nav li:nth-child(4),
+.sidebar-nav li:nth-child(8) {
+  border-bottom: 1px solid #ea1d24;
 }
 .header-icon-girlee {
   margin-top: -15px;
@@ -8248,7 +8420,7 @@ select {
   }
 }
 .footer-upper {
-  padding-bottom: 182px;
+  padding-bottom: 8em;
 }
 @media (max-width: 1024px) {
   .footer-upper {
@@ -8395,7 +8567,7 @@ footer {
   color: #5f5e5e;
 }
 .footer-bottom {
-  padding-bottom: 70px;
+  padding-bottom: 2em;
 }
 @media (max-width: 991px) {
   .footer-bottom {
@@ -8416,6 +8588,9 @@ footer {
   color: #fff;
   text-transform: uppercase;
   font-size: 15px;
+}
+.girlee-line {
+  border: 1px solid #303030;
 }
 .contact {
   margin-top: 2em;
