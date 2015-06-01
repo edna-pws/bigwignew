@@ -4,24 +4,25 @@
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <ul class="nav1">
-                  <li><a href="#">contact us</a></li>
-                  <li><a href="#">faq</a></li>
+                  <li><a href="contact.php">contact us</a></li>
+                  <li><a href="faq.php">faq</a></li>
                   <li><a href="#">search</a></li>
                 </ul>
-                <li><a href="#">Login</a></li>
-                <li><a href="#">Signup</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">what’s new specials</a></li>
-                <li><a href="#">Wigs &amp; accessories</a></li>
-                <li><a href="#">hair pieces &amp; extensions</a></li>
-                <li><a href="#">hair care &amp; accessories</a></li>
-                <li><a href="#">party central</span></a></li>
-                <li><a href="#">pro makeup &amp; tools</a></li>
-                <li><a href="#">beauty supplies &amp; tools</span></a></li>
-                <li><a href="#">pro makeup tips</span></a></li>
-                <li><a href="#">skin &amp; body care</span></a></li>
+                <li><a href="login.php">Login</a></li>
+                <li><a href="sign-up.php">Signup</a></li>
+                <li><a href="review-order-page.php">Add to Cart</a></li>
+                <li><a href="#">Translate</a></li>
+                <li><a href="contact.php">Contact</a></li>
+                <li><a href="http://girlee/index.php">Contact</a></li>
+                <li><a href="http://dev.sifaweb.com.au/bigwig/listing.php">what’s new specials</a></li>
+                <li><a href="http://dev.sifaweb.com.au/bigwig/listing.php">Wigs &amp; accessories</a></li>
+                <li><a href="http://dev.sifaweb.com.au/bigwig/listing.php">hair pieces &amp; extensions</a></li>
+                <li><a href="http://dev.sifaweb.com.au/bigwig/listing.php">hair care &amp; accessories</a></li>
+                <li><a href="http://dev.sifaweb.com.au/bigwig/listing.php">party central</span></a></li>
+                <li><a href="http://dev.sifaweb.com.au/bigwig/listing.php">pro makeup &amp; tools</a></li>
+                <li><a href="http://dev.sifaweb.com.au/bigwig/listing.php">beauty supplies &amp; tools</span></a></li>
+                <li><a href="http://dev.sifaweb.com.au/bigwig/listing.php">pro makeup tips</span></a></li>
+                <li><a href="http://dev.sifaweb.com.au/bigwig/listing.php">skin &amp; body care</span></a></li>
             </ul>
         </div>
         <!-- /#sidebar-wrapper -->
@@ -31,8 +32,15 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
+                      <div class="header_mobile">
+                        <section class="brand_name gap-section mobile-brandname">
+                                <a class="navbar-brand" href="index.php">
+                                  <img alt="bigwig" src="images/bigwig_logo.png">
+                                </a>
+                        </section>
                         <a href="#menu-toggle" id="menu-toggle"><i class="fa fa-align-justify"></i></a>
-                        <div class="banner" style="background:url(/images/banner-01.jpg)">
+                      </div>
+                        <div class="banner" style="background:url(images/banner-01.jpg)">
                           <div class="container">
                             <div class="jumbotron banner-content">
                               <h1>Who Do You Want to Be?</h1>
@@ -55,10 +63,10 @@
                           <div class="row content-thumbnails">
                             <div class="col-sm-6 col-md-4">
                               <div class="thumbnail">
-                                <a href="#">
-                                  <img src="/images/girlee_bg.png" alt="Girlee">
+                                <a href="http://dev.sifaweb.com.au/bigwig/girlee/index.php">
+                                  <img src="images/girlee_bg.png" alt="Girlee">
                                   <div class="caption">
-                                    <h3><img src="/images/girlee_white.png"></h3>
+                                    <h3><img src="images/girlee_white.png"></h3>
                                   </div>
                                   </a>
                               </div>
@@ -66,7 +74,7 @@
                             <div class="col-sm-6 col-md-4">
                               <div class="thumbnail">
                                 <a href="#">
-                                  <img src="/images/style_bg.png" alt="Girlee">
+                                  <img src="images/style_bg.png" alt="Girlee">
                                   <div class="caption">
                                     <h3 class="thumbnail-title">stylish designs<br /><span class="thumbnail-sub-title">palettes</span></h3>
                                   </div>
@@ -76,7 +84,7 @@
                             <div class="col-sm-6 col-md-4">
                               <div class="thumbnail">
                                 <a href="#">
-                                  <img src="/images/wig_bg.png" alt="Girlee">
+                                  <img src="images/wig_bg.png" alt="Girlee">
                                   <div class="caption">
                                     <h3 class="thumbnail-title"><span class="thumbnail-sub-title">wigs</span></h3>
                                   </div>
@@ -96,21 +104,21 @@
                           </div>
                           <div id="carousel-gallery">
                             <div id="owl-demo" class="owl-carousel owl-theme">
-                              <div class="item"><img src="/images/gallery_01.jpg"></div>
-                              <div class="item"><img src="/images/gallery_02.jpg"></div>
-                              <div class="item"><img src="/images/gallery_03.jpg"></div>
-                              <div class="item"><img src="/images/gallery_04.jpg"></div>
-                              <div class="item"><img src="/images/gallery_05.jpg"></div>
-                              <div class="item"><img src="/images/gallery_01.jpg"></div>
-                              <div class="item"><img src="/images/gallery_02.jpg"></div>
-                              <div class="item"><img src="/images/gallery_03.jpg"></div>
-                              <div class="item"><img src="/images/gallery_04.jpg"></div>
-                              <div class="item"><img src="/images/gallery_05.jpg"></div>
-                              <div class="item"><img src="/images/gallery_01.jpg"></div>
-                              <div class="item"><img src="/images/gallery_02.jpg"></div>
-                              <div class="item"><img src="/images/gallery_03.jpg"></div>
-                              <div class="item"><img src="/images/gallery_04.jpg"></div>
-                              <div class="item"><img src="/images/gallery_05.jpg"></div>
+                              <div class="item"><img src="images/gallery_01.jpg"></div>
+                              <div class="item"><img src="images/gallery_02.jpg"></div>
+                              <div class="item"><img src="images/gallery_03.jpg"></div>
+                              <div class="item"><img src="images/gallery_04.jpg"></div>
+                              <div class="item"><img src="images/gallery_05.jpg"></div>
+                              <div class="item"><img src="images/gallery_01.jpg"></div>
+                              <div class="item"><img src="images/gallery_02.jpg"></div>
+                              <div class="item"><img src="images/gallery_03.jpg"></div>
+                              <div class="item"><img src="images/gallery_04.jpg"></div>
+                              <div class="item"><img src="images/gallery_05.jpg"></div>
+                              <div class="item"><img src="images/gallery_01.jpg"></div>
+                              <div class="item"><img src="images/gallery_02.jpg"></div>
+                              <div class="item"><img src="images/gallery_03.jpg"></div>
+                              <div class="item"><img src="images/gallery_04.jpg"></div>
+                              <div class="item"><img src="images/gallery_05.jpg"></div>
                               <div class="item"><h1></h1></div>
                             </div>
                           </div>

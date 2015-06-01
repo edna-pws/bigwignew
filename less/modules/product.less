@@ -84,6 +84,9 @@
 .product-choice li:last-child {
 	margin-right: 0;
 }
+#carousel-bounding-box {
+	padding-left: 0;
+}
 .product-thumbnail .row {
 	@media (max-width: 414px) {
 		margin-left: -18px;
@@ -114,7 +117,7 @@
 .single-form {
 	float: left;
 	margin-top: 5em;
-	margin-left: 2em;
+	margin-left: 1em;
 
 	@media (max-width: 1189px) {
 		width: 71%;
@@ -160,14 +163,21 @@
 	color: #000;
 }
 .single-form .bootstrap-touchspin-up {
-	height: 22px !important;
-    margin-top: -59px;
+	height: 21px !important;
 }
 .single-form .bootstrap-touchspin-down {
-	height: 21px !important;
-	margin-top: -13px;
+	height: 22px !important;
 }
-
+@-moz-document url-prefix() {
+	.single-form .bootstrap-touchspin-up {
+		height: 22px !important;
+	    margin-top: -22px;
+	}
+	.single-form .bootstrap-touchspin-down {
+		height: 21px !important;
+		margin-top: 23px;
+	}
+}
 .single-form .btn-default a {
 	color: #fff;
 }
@@ -231,6 +241,7 @@
 	margin-bottom: 2em;
 	background-color: #fff;
 	border-radius: 5px;
+	height: 335px;
 
 	@media (max-width: 1199px) {
 		width: 23% !important;

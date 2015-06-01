@@ -59,6 +59,7 @@
                           <input class="qty-input" id="qty-number" type="text" value="6" name="qty-number">
                         </div>
                       </form>
+
                     <td>$6,900.00</td>
                     <td><i class="fa fa-trash-o"></i>Remove</td>
                   </tr>
