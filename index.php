@@ -13,7 +13,7 @@
                 <li><a href="review-order-page.php">Add to Cart</a></li>
                 <li><a href="#">Translate</a></li>
                 <li><a href="contact.php">Contact</a></li>
-                <li><a href="http://girlee/index.php">Contact</a></li>
+                <li class="header-icon-girlee"><a href="/girlee/index.php"><img src="images/girlee-2_03.png" alt="girlee" /></a>
                 <li><a href="http://dev.sifaweb.com.au/bigwig/listing.php">what’s new specials</a></li>
                 <li><a href="http://dev.sifaweb.com.au/bigwig/listing.php">Wigs &amp; accessories</a></li>
                 <li><a href="http://dev.sifaweb.com.au/bigwig/listing.php">hair pieces &amp; extensions</a></li>

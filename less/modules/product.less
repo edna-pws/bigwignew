@@ -1,3 +1,6 @@
+.single-page #page-content-wrapper {
+	margin-top: 0em;
+}
 .section-singleproduct {
 	@media (max-width: 1024px) {
 		margin-top: 11em;
@@ -272,12 +275,20 @@
 }
 #carousel-single .col-md-6 {
 	width: 71%;
+
+	@media (max-width: 991px) {
+		float: left;
+	}
 }
 #carousel-single .col-md-5 {
 	width: 29%;
 	top: 25px;
 	padding-right: 0px;
 	padding-left: 0px;
+
+	@media (max-width: 991px) {
+		float: left;
+	}
 }
 #carousel-single .fa {
 	font-size: 20px;

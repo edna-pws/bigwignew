@@ -462,6 +462,17 @@ header .navbar-nav > li > a {
     padding-top: 9px;
     width: 77px;
     margin-left: 11px;
+    width: 127px;
+    margin: 0;
+    position: relative;
+    background-color: #000;
+}
+.navbar-right .dropdown-menu > li > a {
+	color: #fff;
+}
+.navbar-right .dropdown-menu > li > a:hover {
+	background:none;
+	color: #ea1c24;
 }
 .navbar-right .dropdown-menu > li {
 	margin-bottom: 2px;
@@ -612,7 +623,10 @@ header .navbar-nav > li > a {
 }
 #wrapper.toggled .mobile-brandname {
 	padding: 0px 15px;
-
+	
+	@media (max-width: 974px) {
+		margin-left: -5px;
+	}
 	@media (max-width: 640px) {
 		margin-left: -86px;
 	}
