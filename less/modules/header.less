@@ -176,7 +176,10 @@ header .navbar-nav > li > a {
 
 	@media (max-width: 1024px) {
 		float: right;
-		width: 48%;
+	    width: 14%;
+	    position: absolute;
+	    top: 45%;
+	    left: 63%;
 	}
 
 	@media (max-width: 969px) {
@@ -189,6 +192,14 @@ header .navbar-nav > li > a {
 	@media (max-width: 797px) {
 		width: 100%;
 		float: left
+	}
+
+	@media (max-width: 567px) {
+		float: right;
+	    width: 14%;
+	    position: absolute;
+	    top: 33%;
+	    left: 68%;
 	}
 
 }
@@ -570,6 +581,15 @@ header .navbar-nav > li > a {
 		padding-right: 10px;
 		z-index: 999;
 	}
+
+	@media (max-width: 567px) {
+		margin-top: 2.2em;
+    	padding-right: 25px;
+	}
+
+	@media (max-width: 545px) {
+		
+	}
 }
 #wrapper.toggled #menu-toggle {
 	margin-right: 250px !important;
@@ -611,11 +631,20 @@ header .navbar-nav > li > a {
 	@media (max-width: 1024px) {
 		width: 70%;
 	}
+
+	@media (max-width: 797px) {
+		width: 55%;
+	}
 }
 #wrapper .mobile-brandname {
 	@media (max-width: 1024px) {
 		display: block;
 		margin-top: 8px;
+	}
+
+	@media (max-width: 797px) {
+		position: relative;
+    	width: 90%;
 	}
 }
 .mobile-brandname .navbar-brand {
@@ -780,3 +809,82 @@ header .navbar-nav > li > a {
 .sidebar-nav li:nth-child(4), .sidebar-nav li:nth-child(8) {
 	border-bottom: 1px solid #ea1d24;
 }
+
+/*Custom mobile menu header*/
+.fa-shopping-cart{
+  position:relative;
+  font-size: 25px!important;
+  margin-top: -6px;
+  color: #fff;
+  margin-left: -6px;
+}
+
+span.cntr-cart {
+  position: absolute;
+  top: -2px;
+  left: 40%;
+  background: #ea1d24;
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+
+  @media (max-width: 1024px) {
+  	top: -15px;
+  }
+}
+.click {
+  display: none;
+}
+.form-search {
+    @media (max-width: 1024px) {
+    	position: absolute;
+	    left: 32%;
+	    top: 35%;
+    }
+    @media (max-width: 797px) {
+    	left: 40%;
+    	top: 35%;
+    }
+
+    @media (max-width: 567px) {
+    	left: 34%;
+    }
+  }
+ .cart-icon {
+ 	@media (max-width: 1024px) {
+ 		position: absolute;
+	    top: 64%;
+	    left: 50%;
+ 	}
+
+ 	@media (max-width: 797px) {
+ 		top: 55%;
+    	left: 65%;
+ 	}
+ 	@media (max-width: 567px) {
+ 		top: 58%;
+    	left: 59%;
+ 	}
+ }
+ .fa-chevron-down:before {
+ 	@media (max-width: 797px) {
+ 		content: "\f078";
+    	margin-left: 33px;
+ 	}
+
+ 	@media (max-width: 567px) {
+ 		content: "\f078";
+    	margin-left: 23px;
+ 	}
+ }
+ .navbar-right .fa-chevron-down:after {
+ 	@media (max-width: 567px) {
+ 		content: "ENG";
+	    font-family: 'Proxima Nova';
+	    position: absolute;
+	    top: 10%;
+	    margin-left: -12px;
+ 	}
+ }
